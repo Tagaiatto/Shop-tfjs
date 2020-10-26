@@ -1,5 +1,5 @@
 # Shop-tfjs
-
+Trabalho feito com base neste repositório: https://github.com/Joeycho/graduate_project-v-000
 ## Instruções
 Para iniciar este projeto, digite no terminal o seguinte comando:
 
