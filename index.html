@@ -1,0 +1,34 @@
+
+<!doctype html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+  <div class='tfjs-example-container centered-container'>
+    <section class='title-area'>
+      <h1>Generate Data before the tensor</h1>
+      <p id='subtitle'></p>
+    </section>
+  </div>
+
+  <p id="dataExamples"></p>
+
+  <p id="hitratio"></p>
+
+</body>
+<!-- Import TensorFlow.js -->
+ <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+ <!-- Import tfjs-vis -->
+ <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+
+ 
+ <script src="./src/generateData.js"></script>
+ <script src="./src/convertToTensor.js"></script>
+ <script src="./src/createModel.js"></script>
+ <script src="./src/trainModel.js"></script>
+ <script src="./src/testModel.js"></script>
+ <script src="./src/index.js"></script>
