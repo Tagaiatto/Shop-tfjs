@@ -4,7 +4,7 @@ async function run() {
 
     const numShops = 5;
     const numElements = 500;
-    const range = 100;
+    const range = 10;
 
     const data = generateData(range,numShops,numElements);
 
